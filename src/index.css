@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+/* Importação de variáveis de tema e estilos base */
+@import "@/styles/theme.css";
+@import "@/styles/base.css";

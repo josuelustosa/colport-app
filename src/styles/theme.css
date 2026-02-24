@@ -1,0 +1,27 @@
+@theme {
+  /* Backgrounds */
+  --color-background-primary: #000000;
+  --color-background-secondary: #111111;
+  --color-background-surface: #1a1a1a;
+
+  /* Accent */
+  --color-brand-accent: #fe5626;
+
+  /* Neutral */
+  --color-neutral-secondary: #434343;
+
+  /* Text */
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #a3a3a3;
+
+  /* Font */
+  --font-sans: "Inter", sans-serif;
+
+  /* Weight */
+  --font-normal: 400;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* Radius */
+  --radius-default: 0.75rem;
+}
