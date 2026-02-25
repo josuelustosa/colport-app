@@ -1,5 +1,7 @@
-import { PageContainer } from "./components/layout/PageContainer";
-import { Header } from "./components/layout/Header";
+import { Outlet } from "react-router-dom";
+
+import { PageContainer } from "@/components/layout/PageContainer";
+import { Header } from "@/components/layout/Header";
 
 export function App() {
   return (
@@ -7,7 +9,7 @@ export function App() {
       <Header />
 
       <main className="max-w-5xl mx-auto px-6 py-8">
-        <h1>Dashboard</h1>
+        <Outlet />
       </main>
     </PageContainer>
   )

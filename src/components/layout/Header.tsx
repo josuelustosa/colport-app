@@ -1,6 +1,6 @@
 import { Navbar } from "./Navbar"
 
-import logo from "../../assets/logo-colportapp.png"
+import logo from "@/assets/logo-colportapp.png"
 
 export function Header() {
     return (
