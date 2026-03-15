@@ -14,13 +14,25 @@
   --color-text-primary: #ffffff;
   --color-text-secondary: #a3a3a3;
 
-  /* Font */
-  --font-sans: "Inter", sans-serif;
+  /* Typography */
+  --font-inter: "Inter", sans-serif;
 
-  /* Weight */
   --font-normal: 400;
   --font-semibold: 600;
   --font-bold: 700;
+
+  --text-sm: 0.75rem;
+  --text-base: 1rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.5rem;
+  --text-xl: 2rem;
+
+  /* Spacing */
+  --spacing-sm: 0.5rem;
+  --spacing-base: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 2.75rem;
 
   /* Radius */
   --radius-default: 0.75rem;

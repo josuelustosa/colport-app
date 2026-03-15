@@ -2,22 +2,43 @@
   body {
     background-color: var(--color-background-primary);
     color: var(--color-text-primary);
-    font-family: var(--font-sans);
+    font-family: var(--font-inter);
   }
 
   h1 {
     font-weight: var(--font-bold);
-    font-size: 1.75rem; /* 32px */
+    font-size: var(--text-xl);
+    line-height: var(--spacing-lg);
+
+    margin-bottom: var(--spacing-base);
+
+    color: var(--color-brand-accent);
   }
 
-  h2,
+  h2 {
+    font-weight: var(--font-semibold);
+    font-size: var(--text-lg);
+    line-height: var(--spacing-lg);
+
+    margin-bottom: var(--spacing-base);
+
+    color: var(--color-text-secondary);
+  }
+
   h3 {
     font-weight: var(--font-semibold);
-    font-size: 1.5rem; /* 24px */
+    font-size: var(--text-md);
+    line-height: var(--spacing-lg);
+
+    margin-bottom: var(--spacing-base);
+    color: var(--color-neutral-secondary);
   }
 
   p {
     font-weight: var(--font-normal);
-    font-size: 1rem; /* 16px */
+    font-size: var(--text-base);
+    line-height: var(--spacing-md);
+
+    margin-bottom: var(--spacing-sm);
   }
 }
