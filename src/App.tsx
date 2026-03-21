@@ -10,7 +10,7 @@ export function App() {
     <PageContainer>
       <Header />
 
-      <main className="max-w-5xl mx-auto px-6 py-8">
+      <main className="max-w-(--layout-container-max-width) px-(--layout-container-padding-x) py-(--layout-container-padding-y) mx-auto">
         {/* centralized routing system */}
         <Outlet />
         <h2>Sou um Título - H2</h2>

@@ -36,4 +36,9 @@
 
   /* Radius */
   --radius-default: 0.75rem;
+
+  /* Layout e Container */
+  --layout-container-max-width: 64rem; /* equivalente ao max-w-5xl */
+  --layout-container-padding-x: 1.5rem;
+  --layout-container-padding-y: 1rem;
 }
