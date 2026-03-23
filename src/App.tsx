@@ -1,22 +1,20 @@
 import { Outlet } from "react-router-dom";
 
-import { PageContainer } from "@/components/layout/PageContainer";
 import { Header } from "@/components/layout/Header";
 
 import "./index.css";
 
 export function App() {
   return (
-    <PageContainer>
+    <div className="min-h-screen bg-background-secondary text-text-primary">
       <Header />
 
-      <main className="max-w-(--layout-container-max-width) px-(--layout-container-padding-x) py-(--layout-container-padding-y) mx-auto">
-        {/* centralized routing system */}
-        <Outlet />
-        <h2>Sou um Título - H2</h2>
-        <h3>Sou um Título - H3</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum explicabo ipsa dolorem soluta aut laboriosam recusandae sequi o officia aliquid ipsum? Sequi autem laborum mollitia corporis similique excepturi sunt. Quasi, dolor.</p>
-      </main>
-    </PageContainer>
+      <div className="px-(--layout-container-padding-x) py-(--layout-container-padding-y)">
+        <main className="mx-auto h-[calc(100vh-var(--header-height)-calc(var(--layout-container-padding-y)*2))] w-full max-w-(--layout-container-max-width) overflow-y-auto rounded-(--radius-default) bg-background-surface px-4 py-4 tablet:px-5 tablet:py-5 desktop:px-6 desktop:py-6">
+          {/* centralized routing system */}
+          <Outlet />
+        </main>
+      </div>
+    </div>
   )
 }

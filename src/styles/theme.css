@@ -41,4 +41,10 @@
   --layout-container-max-width: 64rem; /* equivalente ao max-w-5xl */
   --layout-container-padding-x: 1.5rem;
   --layout-container-padding-y: 1rem;
+  --header-height: 5.5rem;
+
+  /* Breakpoints */
+  --breakpoint-mobile: 40rem;
+  --breakpoint-tablet: 48rem;
+  --breakpoint-desktop: 64rem;
 }

@@ -1,15 +1,16 @@
-import { Navbar } from "./Navbar"
-
 import logo from "@/assets/logo-colportapp.png"
+
+import { Navbar } from "./Navbar"
 
 export function Header() {
     return (
-        <header className="w-full bg-background-primary">
-            <div className="max-w-(--layout-container-max-width) px-(--layout-container-padding-x) py-(--layout-container-padding-y) mx-auto flex items-center justify-between">
+        <header className="h-(--header-height) w-full bg-background-primary">
+            <div className="mx-auto flex h-full w-full max-w-(--layout-container-max-width) items-center justify-between px-(--layout-container-padding-x) py-(--layout-container-padding-y)">
                 <img
                     src={logo}
                     alt="Logo ColportApp"
                     width={180}
+                    className="w-40 tablet:w-44 desktop:w-45"
                 />
 
                 <Navbar />
